@@ -407,17 +407,18 @@ end
 
 return g end function a.b()
 return{
-Dark={
-Name="Dark",
-Accent="#18181b",
-Dialog="#18181b",
-Outline="#FFFFFF",
-Text="#FFFFFF",
-Placeholder="#999999",
-Background="#101010",
-Button="#52525b",
-Icon="#a1a1aa",
-},
+Dark = {
+  Name = "Dark",
+  Accent = "#fff9c4",--new yellow
+  Dialog = "#18181b",
+  Outline = "#FFFFFF",
+  Text = "#FFFFFF",
+  Placeholder = "#999999",
+  Background = "#101010",
+  Button = "#52525b",
+  Icon = "#a1a1aa",
+}
+
 Light={
 Name="Light",
 Accent="#FFFFFF",
